@@ -4,34 +4,22 @@ library(oxcAAR)
 library(rcarbon)
 library(readr)
 # Read 14C Dates
-dates = read.csv("~/data/C14dates_Iberia.csv", sep=";")
+dates = read.csv("~data\\C14dates_Iberia.csv", sep=";")
 
 # Read bespoke R functions
 source('~/src/oxcalScriptCreator.R')
 
-# Fix Site ID
-dates$SiteIDNew = paste0('S',as.numeric(as.factor(dates$Site)))
+# Create OxCalScript (and save it into oxcalscripts file)
+oxcalScriptGen(id=dates$LabNumber,c14age=dates$C14,errors=dates$STD,group=NULL,site=dates$SiteID,fn="~oxcalscripts\\script.oxcal",interval=100,mcnsim=5000,mcname="MCMC_uniform",model=c("uniform"))
 
-# Assign U
-
-# Test Run with just three sites
-test = subset(dates, SiteIDNew %in% c("S1","S2","S3","s4"))
-test$C14 = as.numeric(test$C14)
-test$STD = as.numeric(test$STD)
-
-# Create OxCalScript
-# The command can be run for each site (faster) or all sites together. The latter might be convenient but perhaps the former is easier for troubleshooting and identifying instances of low agreement
-# The argument group should be dedicated for instances where radiocarbon dates are from the same object, and hence when we expect the exact same date. Did not found anything relevant so left it blank.
-oxcalScriptGen(id=test$LabNumber,c14age=test$C14,errors=test$STD,group=NULL,site=test$SiteIDNew,fn='C:/Users/Usuario/Downloads/BayesMegaliths-master/oxcalscripts/script.oxcal',interval=100,mcnsim=5000,mcname='testMCMC',model=c("uniform"))
-
-# Run OxCalScript Locally
+# Run OxCalScript Locally (Notice this requires about 30-50 hours of processing)
+#This will create an output (MCMC_uniform.csv) stored in a local temporary file (in Windows)
 quickSetupOxcal()
-oxcalscript <- read_file('~oxcalscripts/script.oxcal')
+oxcalscript <- read_file('~oxcalscripts\\script.oxcal')
 result_file <- executeOxcalScript(oxcalscript)
-executeOxcalScript
 
 #Create the MCMC samples posteriors
-mcmcoutput=read.csv("~oxcalresults\\testMCMC.csv")
+mcmcoutput=read.csv("~oxcalresults\\MCMC_uniform.csv")
 mcmcoutput = mcmcoutput[,-c(1,ncol(mcmcoutput))] #Remove unused columns
 index=which(apply(mcmcoutput,1,max)>1950) #identify instances with posterior outside calibration range
 mcmcoutput = mcmcoutput[-index,]
