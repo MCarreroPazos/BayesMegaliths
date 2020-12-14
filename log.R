@@ -3,14 +3,15 @@ library(readxl)
 library(oxcAAR)
 library(rcarbon)
 library(readr)
+library(here)
 # Read 14C Dates
-dates = read.csv("~data\\C14dates_Iberia.csv", sep=";")
+dates = read.csv(here('data','C14dates_Iberia.csv'), sep=";",na='n/a')
 
 # Read bespoke R functions
-source('~/src/oxcalScriptCreator.R')
+source(here('src','oxcalScriptCreator.R'))
 
 # Create OxCalScript (and save it into oxcalscripts file)
-oxcalScriptGen(id=dates$LabNumber,c14age=dates$C14,errors=dates$STD,group=NULL,site=dates$SiteID,fn="~oxcalscripts\\script.oxcal",interval=100,mcnsim=5000,mcname="MCMC_uniform",model=c("uniform"))
+oxcalScriptGen(id=dates$LabNumber,c14age=dates$C14,errors=dates$STD,group=dates$CombineGroup,site=dates$SiteID,fn=here('oxcalscripts','script.oxcal'),interval=100,mcnsim=5000,mcname="MCMC_uniform",model=c("uniform"))
 
 # Run OxCalScript Locally (Notice this requires about 30-50 hours of processing)
 #This will create an output (MCMC_uniform.csv) stored in a local temporary file (in Windows)
