@@ -11,16 +11,16 @@ dates = read.csv(here('data','C14dates_Iberia.csv'), sep=";",na='n/a')
 source(here('src','oxcalScriptCreator.R'))
 
 # Create OxCalScript (and save it into oxcalscripts file)
-oxcalScriptGen(id=dates$LabNumber,c14age=dates$C14,errors=dates$STD,group=dates$CombineGroup,site=dates$SiteID,fn=here('oxcalscripts','script.oxcal'),interval=100,mcnsim=5000,mcname="MCMC_uniform",model=c("uniform"))
+oxcalScriptGen(id=dates$LabNumber,c14age=dates$C14,errors=dates$STD,group=NULL,site=dates$SiteID,fn=here('oxcalscripts','script.oxcal'),interval=100,mcnsim=5000,mcname="MCMC_uniform",model=c("uniform"))
 
 # Run OxCalScript Locally (Notice this requires about 30-50 hours of processing)
 #This will create an output (MCMC_uniform.csv) stored in a local temporary file (in Windows)
 quickSetupOxcal()
-oxcalscript <- read_file('~oxcalscripts\\script.oxcal')
+oxcalscript <- read_file(here("oxcalscripts","script.oxcal"))
 result_file <- executeOxcalScript(oxcalscript)
 
 #Create the MCMC samples posteriors
-mcmcoutput=read.csv("~oxcalresults\\MCMC_uniform.csv")
+mcmcoutput=read.csv(here("oxcalresults", "MCMC_uniform.csv"))
 mcmcoutput = mcmcoutput[,-c(1,ncol(mcmcoutput))] #Remove unused columns
 index=which(apply(mcmcoutput,1,max)>1950) #identify instances with posterior outside calibration range
 mcmcoutput = mcmcoutput[-index,]

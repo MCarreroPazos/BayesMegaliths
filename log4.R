@@ -10,8 +10,6 @@ sites_region = unique(select(dates,SiteID,Region))
 # Read MCMC output
 x = read.csv(here('oxcalresults','MCMC_uniform.csv'))
 x = x[,-c(1,ncol(x))] # eliminate pass number and last column
-x=x[4900:5000,] #run this only on 100 posterior samples
-
 
 # Reorder sites_region to match MCMC output
 mcmc_sitenames = unlist(lapply(strsplit(colnames(x),'\\.'),function(x){x[[2]]}))
@@ -21,14 +19,16 @@ marks = sites_region$Region
 
 res=markTest(x=x,marks=marks,nsim=50)
 
-
-png(file=here('figures','testPlotMarkTest.png'),width = 720,height=480)
+png(file=here('figures','PlotMark.png'),width = 1000,height=600)
 par(mar=c(5,4,2,1),mfrow=c(2,3))
 for (i in 1:length(unique(marks)))
 {
 plotMarkTest(res,index=i,main=unique(marks)[i])
 legend('topleft',legend=c(paste0('n=',sum(marks==unique(marks)[i])),paste0('P-Value=',round(res$pValueList[i],4))),bty='n',cex=1)
 }
-
-
+par(mai=c(0,0,0,0))
+plot.new()
+legend(x="center",legend=c("Observed SPD","Null hypothesis (pan-regional trend)", "Positive deviation","Negative deviation"),
+       col =c("black","lightgrey","indianred","royalblue"),lty=c(1,1,1,1),
+       lwd=c(1,5,5,5),cex=2,xjust = 0.5)
 dev.off()

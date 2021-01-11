@@ -15,31 +15,48 @@ Sequence(){
 Boundary("Start S2");
 Phase("S2")
 {
-R_Date("GrN-19197",3755,210);
-R_Date("GrN-19198",3830,180);
+R_Date("Beta-180980",3860,40);
+R_Date("Sac-1794",5640,100);
+R_Date("Beta-180981",5690,40);
+R_Date("Beta-180978",5810,40);
 };
 Boundary("End S2");
+};
+Sequence(){
+Boundary("Start S102");
+Phase("S102")
+{
+R_Date("CSIC-1038",2840,40);
+R_Date("CSIC-1039",6030,30);
+};
+Boundary("End S102");
 };
 Sequence(){
 Boundary("Start S3");
 Phase("S3")
 {
-R_Date("KIA-13991",3075,35);
-R_Date("KIA-13990",3110,30);
-R_Date("KIA-13992",3220,35);
-R_Date("KIA-13988",3340,30);
-R_Date("KIA-13989",3360,30);
+R_Date("Beta-177471",3840,40);
+R_Date("Beta-176899",3900,40);
 };
 Boundary("End S3");
+};
+Sequence(){
+Boundary("Start S98");
+Phase("S98")
+{
+R_Date("OxA-5432",3220,65);
+R_Date("ICEN-1264",6360,110);
+};
+Boundary("End S98");
 };
 Sequence(){
 Boundary("Start S4");
 Phase("S4")
 {
-R_Date("Beta-180980",3860,40);
-R_Date("Sac-1794",5640,100);
-R_Date("Beta-180981",5690,40);
-R_Date("Beta-180978",5810,40);
+R_Date("OxA-5433",4655,60);
+R_Date("OxA-5498",5070,65);
+R_Date("OxA-5497",5295,60);
+R_Date("OxA-5496",5330,60);
 };
 Boundary("End S4");
 };
@@ -47,8 +64,11 @@ Sequence(){
 Boundary("Start S5");
 Phase("S5")
 {
-R_Date("Beta-177471",3840,40);
-R_Date("Beta-176899",3900,40);
+R_Date("GrA-18497",4840,60);
+R_Date("GrA-18518",5170,60);
+R_Date("CSIC-1327",5699,31);
+R_Date("Sac-1508",5830,50);
+R_Date("Sac-1514",5970,60);
 };
 Boundary("End S5");
 };
@@ -56,10 +76,8 @@ Sequence(){
 Boundary("Start S6");
 Phase("S6")
 {
-R_Date("OxA-5433",4655,60);
-R_Date("OxA-5498",5070,65);
-R_Date("OxA-5497",5295,60);
-R_Date("OxA-5496",5330,60);
+R_Date("GrN-12124",4575,40);
+R_Date("GrN-18671",4720,150);
 };
 Boundary("End S6");
 };
@@ -67,11 +85,11 @@ Sequence(){
 Boundary("Start S7");
 Phase("S7")
 {
-R_Date("CSIC-1327",5699,31);
-R_Date("GrA-18497",4840,60);
-R_Date("GrA-18518",5170,60);
-R_Date("Sac-1508",5830,50);
-R_Date("Sac-1514",5970,60);
+R_Date("GrA-9575",3030,50);
+R_Date("GrA-9255",3650,50);
+R_Date("GrA-23198",3710,60);
+R_Date("GrA-9577",3740,50);
+R_Date("GrA-9573",4160,50);
 };
 Boundary("End S7");
 };
@@ -79,8 +97,11 @@ Sequence(){
 Boundary("Start S8");
 Phase("S8")
 {
-R_Date("GrN-12124",4575,40);
-R_Date("GrN-18671",4720,150);
+R_Date("Ly-4500",4590,90);
+R_Date("Beta-145277",4620,40);
+R_Date("UGRA-288",5060,90);
+R_Date("Beta-157731",5250,40);
+R_Date("Ly-4578",5750,130);
 };
 Boundary("End S8");
 };
@@ -88,11 +109,8 @@ Sequence(){
 Boundary("Start S9");
 Phase("S9")
 {
-R_Date("GrA-9575",3030,50);
-R_Date("GrA-9255",3650,50);
-R_Date("GrA-23198",3710,60);
-R_Date("GrA-9577",3740,50);
-R_Date("GrA-9573",4160,50);
+R_Date("Ua-3229",5200,75);
+R_Date("Ua-3228",5500,100);
 };
 Boundary("End S9");
 };
@@ -100,11 +118,9 @@ Sequence(){
 Boundary("Start S10");
 Phase("S10")
 {
-R_Date("Ly-4500",4590,90);
-R_Date("Beta-145277",4620,40);
-R_Date("UGRA-288",5060,90);
-R_Date("Beta-157731",5250,40);
-R_Date("Ly-4578",5750,130);
+R_Date("BM-1677",3270,80);
+R_Date("KIA-14330",3535,40);
+R_Date("KIA-14329",3595,35);
 };
 Boundary("End S10");
 };
@@ -112,13 +128,9 @@ Sequence(){
 Boundary("Start S11");
 Phase("S11")
 {
-R_Date("UtC-8951",3200,35);
-R_Date("UtC-9043",3290,40);
-R_Date("UtC-7847",3310,45);
-R_Date("KIA-11901",3605,30);
-R_Date("UtC-8950",3635,35);
-R_Date("KIA-11902",3660,25);
-R_Date("UtC-8949",3745,40);
+R_Date("Wk-41086",4742,20);
+R_Date("Wk-17084",4759,41);
+R_Date("Beta-196094",4780,40);
 };
 Boundary("End S11");
 };
@@ -126,11 +138,8 @@ Sequence(){
 Boundary("Start S12");
 Phase("S12")
 {
-R_Date("UBAR-443",4560,80);
-R_Date("UBAR-586",4810,70);
-R_Date("UBAR-445",4880,173);
-R_Date("UBAR-442",5310,90);
-R_Date("UBAR-401",5540,450);
+R_Date("Beta-132975",4240,50);
+R_Date("Beta-123363",4370,70);
 };
 Boundary("End S12");
 };
@@ -138,8 +147,9 @@ Sequence(){
 Boundary("Start S13");
 Phase("S13")
 {
-R_Date("Ua-3229",5200,75);
-R_Date("Ua-3228",5500,100);
+R_Date("UBAR-538",4230,100);
+R_Date("Sac-1784",4460,45);
+R_Date("Sac-1613",4700,80);
 };
 Boundary("End S13");
 };
@@ -147,9 +157,8 @@ Sequence(){
 Boundary("Start S14");
 Phase("S14")
 {
-R_Date("BM-1677",3270,80);
-R_Date("KIA-14330",3535,40);
-R_Date("KIA-14329",3595,35);
+R_Date("ICEN-977",3650,110);
+R_Date("ICEN-979",3720,45);
 };
 Boundary("End S14");
 };
@@ -157,9 +166,11 @@ Sequence(){
 Boundary("Start S15");
 Phase("S15")
 {
-R_Date("Wk-41086",4742,20);
-R_Date("Wk-17084",4759,41);
-R_Date("Beta-196094",4780,40);
+R_Date("CSIC-1057",3850,60);
+R_Date("ICEN-1266",5220,60);
+R_Date("ICEN-1267",5220,60);
+R_Date("ICEN-1265",5290,50);
+R_Date("CSIC-1055",6160,70);
 };
 Boundary("End S15");
 };
@@ -167,8 +178,11 @@ Sequence(){
 Boundary("Start S16");
 Phase("S16")
 {
-R_Date("Beta-132975",4240,50);
-R_Date("Beta-123363",4370,70);
+R_Date("CNA-832",3065,35);
+R_Date("CNA-360",5020,50);
+R_Date("CNA-835",5485,30);
+R_Date("CNA-664",5650,40);
+R_Date("CNA-833",5665,60);
 };
 Boundary("End S16");
 };
@@ -176,9 +190,10 @@ Sequence(){
 Boundary("Start S17");
 Phase("S17")
 {
-R_Date("UBAR-538",4230,100);
-R_Date("Sac-1784",4460,45);
-R_Date("Sac-1613",4700,80);
+R_Date("Hv-1783",4590,65);
+R_Date("GrN-5110",4850,40);
+R_Date("TO-3336",5120,40);
+R_Date("OxA-3733",5125,70);
 };
 Boundary("End S17");
 };
@@ -186,32 +201,44 @@ Sequence(){
 Boundary("Start S18");
 Phase("S18")
 {
-R_Date("ICEN-977",3650,110);
-R_Date("ICEN-979",3720,45);
+R_Date("Beta-225170",4130,40);
+R_Date("Beta-208518",4270,40);
 };
 Boundary("End S18");
+};
+Sequence(){
+Boundary("Start S103");
+Phase("S103")
+{
+R_Date("GrA-5427",6730,50);
+R_Date("GrN-20792",3100,90);
+};
+Boundary("End S103");
 };
 Sequence(){
 Boundary("Start S19");
 Phase("S19")
 {
-R_Date("CSIC-1057",3850,60);
-R_Date("ICEN-1267",5220,60);
-R_Date("ICEN-1266",5220,60);
-R_Date("ICEN-1265",5290,50);
-R_Date("CSIC-1055",6160,70);
+R_Date("Beta-229585",4280,40);
+R_Date("Beta-234134",4280,40);
 };
 Boundary("End S19");
+};
+Sequence(){
+Boundary("Start S100");
+Phase("S100")
+{
+R_Date("CNA-345",2890,50);
+R_Date("CNA-346",4410,50);
+};
+Boundary("End S100");
 };
 Sequence(){
 Boundary("Start S20");
 Phase("S20")
 {
-R_Date("CNA-832",3065,35);
-R_Date("CNA-360",5020,50);
-R_Date("CNA-835",5485,30);
-R_Date("CNA-664",5650,40);
-R_Date("CNA-833",5665,60);
+R_Date("CSIC-984",5470,35);
+R_Date("CSIC-985",5680,35);
 };
 Boundary("End S20");
 };
@@ -219,128 +246,9 @@ Sequence(){
 Boundary("Start S21");
 Phase("S21")
 {
-R_Date("UBAR-555",3500,50);
-R_Date("UBAR-556",3500,50);
-};
-Boundary("End S21");
-};
-Sequence(){
-Boundary("Start S22");
-Phase("S22")
-{
-R_Combine("Combination2")
-{
-R_Date("UBAR-865",3040,40){Outlier(0.05);};
-R_Date("UBAR-864",3370,70){Outlier(0.05);};
-R_Date("UBAR-863",3530,40){Outlier(0.05);};
-};
-R_Date("UBAR-671",3310,55);
-R_Date("UBAR-800",3360,70);
-R_Date("UBAR-670",3370,50);
-R_Date("UBAR-673",3370,65);
-R_Date("UBAR-697",3465,60);
-R_Date("UBAR-797",3500,45);
-R_Date("UBAR-698",3590,90);
-};
-Boundary("End S22");
-};
-Sequence(){
-Boundary("Start S23");
-Phase("S23")
-{
-R_Date("I-12717",4080,100);
-R_Date("I-13315",4130,110);
-R_Date("I-13313",4160,160);
-R_Date("I-11533",4225,90);
-R_Date("UBAR-1074",4425,50);
-R_Date("UBAR-1281",5075,40);
-R_Date("UBAR-1352",5260,50);
-R_Date("UBAR-1282",5260,40);
-R_Date("Beta-197134",5290,40);
-R_Date("Beta-210652",5340,40);
-R_Date("I-17918",5350,150);
-R_Date("UBAR-1193",5370,45);
-R_Date("Beta-363819",5460,40);
-R_Date("I-13314",5470,110);
-R_Date("UBAR-766",5470,140);
-R_Date("OxA-29640",5487,33);
-R_Date("UBAR-1310",5560,60);
-R_Date("OxA-29641",5568,34);
-R_Date("Beta-238657",5570,40);
-R_Date("UBAR-846",5635,45);
-R_Date("I-11789",5700,110);
-R_Date("Beta-394625",5730,30);
-R_Date("Beta-210653",5790,40);
-R_Date("I-11787",5800,160);
-};
-Boundary("End S23");
-};
-Sequence(){
-Boundary("Start S24");
-Phase("S24")
-{
-R_Date("Hv-1783",4590,65);
-R_Date("GrN-5110",4850,40);
-R_Date("TO-3336",5120,40);
-R_Date("OxA-3733",5125,70);
-};
-Boundary("End S24");
-};
-Sequence(){
-Boundary("Start S25");
-Phase("S25")
-{
-R_Date("Beta-225170",4130,40);
-R_Date("Beta-208518",4270,40);
-};
-Boundary("End S25");
-};
-Sequence(){
-Boundary("Start S26");
-Phase("S26")
-{
-R_Date("UBAR-860",3870,45);
-R_Date("UBAR-817",4110,60);
-};
-Boundary("End S26");
-};
-Sequence(){
-Boundary("Start S27");
-Phase("S27")
-{
-R_Date("Beta-234134",4280,40);
-R_Date("Beta-229585",4280,40);
-};
-Boundary("End S27");
-};
-Sequence(){
-Boundary("Start S28");
-Phase("S28")
-{
-R_Date("Wk-28634",5267,34);
-R_Date("Wk-28001",5436,32);
-R_Date("Beta-199912",5500,40);
-R_Date("Wk-28002",5536,32);
-R_Date("Beta-199913",5720,40);
-R_Date("Sac-2031",5790,70);
-};
-Boundary("End S28");
-};
-Sequence(){
-Boundary("Start S29");
-Phase("S29")
-{
-R_Date("CSIC-984",5470,35);
-R_Date("CSIC-985",5680,35);
-};
-Boundary("End S29");
-};
-Sequence(){
-Boundary("Start S30");
-Phase("S30")
-{
 R_Date("Beta-110875",5300,120);
 R_Date("Beta-90884",5660,80);
+R_Date("Beta-101435",5860,70);
 R_Date("OxA-6713",5765,55);
 R_Date("Beta-118936",5830,30);
 R_Date("OxA-6580",5850,80);
@@ -350,11 +258,20 @@ R_Date("Beta-90885",5920,70);
 R_Date("OxA-6714",6030,55);
 R_Date("Beta-101424",6160,180);
 };
-Boundary("End S30");
+Boundary("End S21");
 };
 Sequence(){
-Boundary("Start S31");
-Phase("S31")
+Boundary("Start S26");
+Phase("S26")
+{
+R_Date("CSIC-642",5210,50);
+R_Date("GaK-11395",5890,120);
+};
+Boundary("End S26");
+};
+Sequence(){
+Boundary("Start S22");
+Phase("S22")
 {
 R_Date("Gif-7672",3940,80);
 R_Date("ICEN-409",4130,45);
@@ -369,11 +286,11 @@ R_Date("ICEN-780",4930,50);
 R_Date("ICEN-781",4980,50);
 R_Date("CSIC-979",5010,35);
 };
-Boundary("End S31");
+Boundary("End S22");
 };
 Sequence(){
-Boundary("Start S32");
-Phase("S32")
+Boundary("Start S23");
+Phase("S23")
 {
 R_Date("ICEN-823",4910,50);
 R_Date("CSIC-822",4970,50);
@@ -384,15 +301,94 @@ R_Date("ICEN-169",5420,40);
 R_Date("ICEN-162",5470,45);
 R_Date("ICEN-170",5530,300);
 };
+Boundary("End S23");
+};
+Sequence(){
+Boundary("Start S24");
+Phase("S24")
+{
+R_Date("OxA-1849",5450,80);
+R_Date("UGRA-355",5860,60);
+R_Date("OxA-1848",6150,80);
+R_Date("OxA-1850",6340,80);
+};
+Boundary("End S24");
+};
+Sequence(){
+Boundary("Start S25");
+Phase("S25")
+{
+R_Date("Gif-6785",4930,50);
+R_Date("Gif-6784",4990,50);
+};
+Boundary("End S25");
+};
+Sequence(){
+Boundary("Start S27");
+Phase("S27")
+{
+R_Date("Beta-89990",3840,70);
+R_Date("Beta-89988",3860,70);
+R_Date("Beta-89991",3950,80);
+R_Date("Beta-89989",4000,70);
+R_Date("Beta-89987",4430,70);
+R_Date("Beta-89986",4700,90);
+};
+Boundary("End S27");
+};
+Sequence(){
+Boundary("Start S28");
+Phase("S28")
+{
+R_Date("CSIC-970",3680,20);
+R_Date("CSIC-1065",4270,60);
+R_Date("CSIC-952",4730,30);
+};
+Boundary("End S28");
+};
+Sequence(){
+Boundary("Start S29");
+Phase("S29")
+{
+R_Date("UGRA-260",3530,60);
+R_Date("GrN-16066",3745,25);
+};
+Boundary("End S29");
+};
+Sequence(){
+Boundary("Start S30");
+Phase("S30")
+{
+R_Date("CAMS-83116",3830,60);
+R_Date("CAMS-83631",5540,70);
+};
+Boundary("End S30");
+};
+Sequence(){
+Boundary("Start S31");
+Phase("S31")
+{
+R_Date("GrN-18420",4940,80);
+R_Date("GrN-17698",5239,80);
+};
+Boundary("End S31");
+};
+Sequence(){
+Boundary("Start S32");
+Phase("S32")
+{
+R_Date("GrN-19565",4065,45);
+R_Date("GrN-19566",4390,50);
+};
 Boundary("End S32");
 };
 Sequence(){
 Boundary("Start S33");
 Phase("S33")
 {
-R_Date("UGRA-355",5860,60);
-R_Date("OxA-1848",6150,80);
-R_Date("OxA-1849",5450,80);
+R_Date("Ua-36216",4760,30);
+R_Date("Ua-24583",4865,40);
+R_Date("Ua-24582",4935,40);
 };
 Boundary("End S33");
 };
@@ -400,168 +396,15 @@ Sequence(){
 Boundary("Start S34");
 Phase("S34")
 {
-R_Date("Gif-6785",4930,50);
-R_Date("Gif-6784",4990,50);
+R_Date("Beta-353822",3580,30);
+R_Date("Beta-353820",4090,30);
+R_Date("GrN-16067",4550,140);
 };
 Boundary("End S34");
 };
 Sequence(){
 Boundary("Start S35");
 Phase("S35")
-{
-R_Date("CSIC-642",5210,50);
-R_Date("GaK-11395",5890,120);
-};
-Boundary("End S35");
-};
-Sequence(){
-Boundary("Start S36");
-Phase("S36")
-{
-R_Date("Beta-89990",3840,70);
-R_Date("Beta-89990",3840,70);
-R_Date("Beta-89988",3860,70);
-R_Date("Beta-89988",3860,70);
-R_Date("Beta-89991",3950,80);
-R_Date("Beta-89991",3950,80);
-R_Date("Beta-89989",4000,70);
-R_Date("Beta-89989",4000,70);
-R_Date("Beta-89987",4430,70);
-R_Date("Beta-89987",4430,70);
-R_Date("Beta-89986",4700,90);
-R_Date("Beta-89986",4700,90);
-};
-Boundary("End S36");
-};
-Sequence(){
-Boundary("Start S37");
-Phase("S37")
-{
-R_Date("CSIC-970",3680,20);
-R_Date("CSIC-1065",4270,60);
-R_Date("CSIC-952",4730,30);
-R_Date("CSIC-970",3680,20);
-R_Date("CSIC-1065",4270,60);
-R_Date("CSIC-952",4730,30);
-};
-Boundary("End S37");
-};
-Sequence(){
-Boundary("Start S38");
-Phase("S38")
-{
-R_Date("UGRA-260",3530,60);
-R_Date("GrN-16066",3745,25);
-};
-Boundary("End S38");
-};
-Sequence(){
-Boundary("Start S39");
-Phase("S39")
-{
-R_Date("Ly-7838",3795,55);
-R_Date("Ly-7837",3810,55);
-R_Date("UBAR-695",3875,50);
-R_Date("UBAR-696",3920,80);
-};
-Boundary("End S39");
-};
-Sequence(){
-Boundary("Start S40");
-Phase("S40")
-{
-R_Date("CAMS-83116",3830,60);
-R_Date("CAMS-83631",5540,70);
-};
-Boundary("End S40");
-};
-Sequence(){
-Boundary("Start S41");
-Phase("S41")
-{
-R_Date("GrN-18420",4940,80);
-R_Date("GrN-17698",5239,80);
-};
-Boundary("End S41");
-};
-Sequence(){
-Boundary("Start S42");
-Phase("S42")
-{
-R_Date("GrN-19565",4065,45);
-R_Date("GrN-19566",4390,50);
-};
-Boundary("End S42");
-};
-Sequence(){
-Boundary("Start S43");
-Phase("S43")
-{
-R_Date("UBAR-109",5830,100);
-R_Date("GaK-12933",5920,180);
-};
-Boundary("End S43");
-};
-Sequence(){
-Boundary("Start S44");
-Phase("S44")
-{
-R_Date("MC-1021",3570,250);
-R_Date("MC-1022",4480,250);
-};
-Boundary("End S44");
-};
-Sequence(){
-Boundary("Start S45");
-Phase("S45")
-{
-R_Date("Beta-213110",3140,40);
-R_Date("Beta-213102",3180,40);
-R_Date("Beta-213106",3180,40);
-R_Date("Beta-213107",3180,40);
-R_Date("Beta-213103",3190,40);
-R_Date("Beta-213105",3200,40);
-R_Date("Beta-230404",3240,40);
-R_Date("Beta-230405",3260,40);
-R_Date("Beta-213108",3330,40);
-R_Date("Beta-213109",5680,50);
-};
-Boundary("End S45");
-};
-Sequence(){
-Boundary("Start S46");
-Phase("S46")
-{
-R_Date("CSIC-246",5400,80);
-R_Date("CSIC-1132",5861,48);
-R_Date("CSIC-1134",5900,38);
-R_Date("CSIC-1133",6086,45);
-};
-Boundary("End S46");
-};
-Sequence(){
-Boundary("Start S47");
-Phase("S47")
-{
-R_Date("Ua-36216",4760,30);
-R_Date("Ua-24583",4865,40);
-R_Date("Ua-24582",4935,40);
-};
-Boundary("End S47");
-};
-Sequence(){
-Boundary("Start S48");
-Phase("S48")
-{
-R_Date("Beta-353822",3580,30);
-R_Date("Beta-353820",4090,30);
-R_Date("GrN-16067",4550,140);
-};
-Boundary("End S48");
-};
-Sequence(){
-Boundary("Start S49");
-Phase("S49")
 {
 R_Date("UtC-3201",3950,60);
 R_Date("CSIC-962",4020,30);
@@ -581,20 +424,20 @@ R_Date("CSIC-891",4910,60);
 R_Date("CSIC-890",4930,70);
 R_Date("UtC-3203",4950,70);
 };
-Boundary("End S49");
+Boundary("End S35");
 };
 Sequence(){
-Boundary("Start S50");
-Phase("S50")
+Boundary("Start S36");
+Phase("S36")
 {
 R_Date("CAMS- 101904",4890,30);
 R_Date("CAMS- 101903",4895,30);
 };
-Boundary("End S50");
+Boundary("End S36");
 };
 Sequence(){
-Boundary("Start S51");
-Phase("S51")
+Boundary("Start S37");
+Phase("S37")
 {
 R_Date("CNA-2412",3120,35);
 R_Date("Beta-301932",3470,40);
@@ -609,20 +452,20 @@ R_Date("CNA-2407",3860,35);
 R_Date("CNA-2408",3860,35);
 R_Date("CNA-2405",3925,35);
 };
-Boundary("End S51");
+Boundary("End S37");
 };
 Sequence(){
-Boundary("Start S52");
-Phase("S52")
+Boundary("Start S38");
+Phase("S38")
 {
 R_Date("CSIC-81",4280,130);
 R_Date("CSIC-82",4300,130);
 };
-Boundary("End S52");
+Boundary("End S38");
 };
 Sequence(){
-Boundary("Start S53");
-Phase("S53")
+Boundary("Start S39");
+Phase("S39")
 {
 R_Date("N.R.-N.R.",3710,70);
 R_Date("Beta-145274",3810,70);
@@ -631,160 +474,110 @@ R_Date("GX-29784",4180,50);
 R_Date("Beta-132915",4930,40);
 R_Date("Beta-132917",5710,150);
 };
-Boundary("End S53");
+Boundary("End S39");
 };
 Sequence(){
-Boundary("Start S54");
-Phase("S54")
+Boundary("Start S40");
+Phase("S40")
 {
 R_Date("QL-N.R.",4490,20);
-R_Date("GrN-N.R.C",4940,40);
-R_Date("GrN-12100",5115,35);
-R_Date("GrN-N.R.B",5120,25);
-R_Date("GrN-N.R.A",5135,45);
-R_Date("GrN-12101",5155,35);
 R_Date("QL-N.R.",4490,20);
 R_Date("GrN-N.R.C",4940,40);
+R_Date("GrN-N.R.C",4940,40);
 R_Date("GrN-12100",5115,35);
 R_Date("GrN-N.R.B",5120,25);
 R_Date("GrN-N.R.A",5135,45);
 R_Date("GrN-12101",5155,35);
 };
-Boundary("End S54");
+Boundary("End S40");
 };
 Sequence(){
-Boundary("Start S55");
-Phase("S55")
+Boundary("Start S41");
+Phase("S41")
 {
 R_Date("UBAR-116",5580,130);
 R_Date("UBAR-113",5600,130);
 R_Date("UBAR-114",5770,80);
 R_Date("UBAR-115",5870,100);
 };
-Boundary("End S55");
+Boundary("End S41");
 };
 Sequence(){
-Boundary("Start S56");
-Phase("S56")
-{
-R_Date("UBAR-666",5280,90);
-R_Date("UBAR-554",5340,90);
-};
-Boundary("End S56");
-};
-Sequence(){
-Boundary("Start S57");
-Phase("S57")
+Boundary("Start S42");
+Phase("S42")
 {
 R_Date("Beta-228578",4110,40);
 R_Date("Beta-208950",4180,50);
 };
-Boundary("End S57");
+Boundary("End S42");
 };
 Sequence(){
-Boundary("Start S58");
-Phase("S58")
+Boundary("Start S43");
+Phase("S43")
 {
 R_Date("UBAR-60",5780,290);
 R_Date("UBAR-61",6190,100);
 };
-Boundary("End S58");
+Boundary("End S43");
 };
 Sequence(){
-Boundary("Start S59");
-Phase("S59")
+Boundary("Start S44");
+Phase("S44")
 {
-R_Date("KIA-42492",3631,14);
-R_Date("KIA-42493",3761,14);
-};
-Boundary("End S59");
-};
-Sequence(){
-Boundary("Start S60");
-Phase("S60")
-{
-R_Date("OxA-5047",3435,55);
-R_Date("OxA-4972",3545,65);
-};
-Boundary("End S60");
-};
-Sequence(){
-Boundary("Start S61");
-Phase("S61")
-{
-R_Date("KIK/KIA-2936/22256",3580,30);
-R_Date("Bln-4773",3652,39);
-R_Date("Bln-4539",3679,44);
-R_Date("Bln-4540",3711,45);
-R_Date("Bln-4772",3738,39);
-R_Date("KIK/KIA-2941/22261",3760,25);
-};
-Boundary("End S61");
-};
-Sequence(){
-Boundary("Start S62");
-Phase("S62")
-{
-R_Date("GrN-16073",5270,140);
+R_Date("GrN-18667",5170,100);
 R_Date("GrN-16073",5270,140);
 R_Date("GrN-18669",5375,45);
-R_Date("GrN-18669",5375,45);
-R_Date("GrN-18667",5170,100);
-R_Date("GrN-18667",5170,100);
 };
-Boundary("End S62");
+Boundary("End S44");
 };
 Sequence(){
-Boundary("Start S63");
-Phase("S63")
+Boundary("Start S45");
+Phase("S45")
 {
 R_Date("CSIC-1382",5059,30);
 R_Date("CSIC-1381",5080,30);
 };
-Boundary("End S63");
+Boundary("End S45");
 };
 Sequence(){
-Boundary("Start S64");
-Phase("S64")
+Boundary("Start S46");
+Phase("S46")
 {
 R_Date("CSIC-1113",4961,27);
 R_Date("GrN-21353",4990,40);
 R_Date("CSIC-1114",4999,29);
 R_Date("OxA-5102",5360,55);
 };
-Boundary("End S64");
+Boundary("End S46");
 };
 Sequence(){
-Boundary("Start S65");
-Phase("S65")
+Boundary("Start S47");
+Phase("S47")
 {
-R_Combine("Combination1")
-{
-R_Date("I-14919",5070,140){Outlier(0.05);};
-R_Date("I-14781",5810,290){Outlier(0.05);};
-};
 R_Date("GrA-20497",3620,60);
 R_Date("Ua-10376",3920,75);
 R_Date("GrA-20283",3990,80);
 R_Date("Ua-11139",4055,60);
 R_Date("GrA-20304",4590,50);
 R_Date("GrA-22140",4790,170);
+R_Date("I-14919",5070,140);
+R_Date("I-14781",5810,290);
 };
-Boundary("End S65");
+Boundary("End S47");
 };
 Sequence(){
-Boundary("Start S66");
-Phase("S66")
+Boundary("Start S48");
+Phase("S48")
 {
 R_Date("UBAR-559",3465,50);
 R_Date("UBAR-558",3475,50);
 R_Date("UBAR-560",3495,50);
 };
-Boundary("End S66");
+Boundary("End S48");
 };
 Sequence(){
-Boundary("Start S67");
-Phase("S67")
+Boundary("Start S49");
+Phase("S49")
 {
 R_Date("Ua-39501",3018,30);
 R_Date("Beta-301937",3160,30);
@@ -797,33 +590,34 @@ R_Date("Ua-39502",3269,31);
 R_Date("Ua-39496",3286,30);
 R_Date("Beta-301936",3300,30);
 R_Date("Ua-39498",3543,36);
+R_Date("Beta-301935",2910,30);
 };
-Boundary("End S67");
+Boundary("End S49");
 };
 Sequence(){
-Boundary("Start S68");
-Phase("S68")
+Boundary("Start S50");
+Phase("S50")
 {
 R_Date("Beta-185650",3700,50);
 R_Date("Beta-185648",3850,40);
 R_Date("Beta-185649",3920,50);
 };
-Boundary("End S68");
+Boundary("End S50");
 };
 Sequence(){
-Boundary("Start S69");
-Phase("S69")
+Boundary("Start S51");
+Phase("S51")
 {
 R_Date("I-15195",4080,160);
 R_Date("I-14593",4090,120);
 R_Date("I-14788",4660,200);
 R_Date("I-15168",5190,140);
 };
-Boundary("End S69");
+Boundary("End S51");
 };
 Sequence(){
-Boundary("Start S70");
-Phase("S70")
+Boundary("Start S52");
+Phase("S52")
 {
 R_Date("GrA-884",3500,40);
 R_Date("GrA-855",4420,40);
@@ -831,21 +625,21 @@ R_Date("OxA-5199",4540,65);
 R_Date("GrN-21066",4790,60);
 R_Date("CSIC-1030",5280,40);
 };
-Boundary("End S70");
+Boundary("End S52");
 };
 Sequence(){
-Boundary("Start S71");
-Phase("S71")
+Boundary("Start S53");
+Phase("S53")
 {
 R_Date("CSIC-715",5010,70);
 R_Date("CSIC-716",5050,70);
 R_Date("CSIC-717",5130,90);
 };
-Boundary("End S71");
+Boundary("End S53");
 };
 Sequence(){
-Boundary("Start S72");
-Phase("S72")
+Boundary("Start S54");
+Phase("S54")
 {
 R_Date("CSIC-1816",3806,32);
 R_Date("CSIC-1815",3862,33);
@@ -855,60 +649,60 @@ R_Date("CSIC-1814",4136,33);
 R_Date("Ua-19121",4560,65);
 R_Date("CSIC-1818",5112,36);
 };
-Boundary("End S72");
+Boundary("End S54");
 };
 Sequence(){
-Boundary("Start S73");
-Phase("S73")
+Boundary("Start S55");
+Phase("S55")
 {
 R_Date("CAMS-77925",4920,60);
 R_Date("CAMS-77924",5330,80);
 };
-Boundary("End S73");
+Boundary("End S55");
 };
 Sequence(){
-Boundary("Start S74");
-Phase("S74")
+Boundary("Start S56");
+Phase("S56")
 {
-R_Date("CSIC-659a",5260,60);
-R_Date("CSIC-658",5260,60);
 R_Date("CSIC-656",5260,50);
 R_Date("CSIC-657",5260,50);
+R_Date("CSIC-658",5260,60);
+R_Date("CSIC-659a",5260,60);
 };
-Boundary("End S74");
+Boundary("End S56");
 };
 Sequence(){
-Boundary("Start S75");
-Phase("S75")
+Boundary("Start S57");
+Phase("S57")
 {
 R_Date("CSIC-660",3800,50);
 R_Date("CSIC-661",3830,50);
 R_Date("GaK-10943",4220,140);
 };
-Boundary("End S75");
+Boundary("End S57");
 };
 Sequence(){
-Boundary("Start S76");
-Phase("S76")
+Boundary("Start S58");
+Phase("S58")
 {
 R_Date("Beta-228579",4040,40);
 R_Date("Beta-228580",4180,40);
 };
-Boundary("End S76");
+Boundary("End S58");
 };
 Sequence(){
-Boundary("Start S77");
-Phase("S77")
+Boundary("Start S59");
+Phase("S59")
 {
 R_Date("UtC-9320",5239,43);
 R_Date("GrN-22027",5330,50);
 R_Date("GrN-22026",5470,90);
 };
-Boundary("End S77");
+Boundary("End S59");
 };
 Sequence(){
-Boundary("Start S78");
-Phase("S78")
+Boundary("Start S60");
+Phase("S60")
 {
 R_Date("CSIC-1380",5133,30);
 R_Date("CSIC-1378",5176,30);
@@ -918,58 +712,49 @@ R_Date("UtC-7217",5368,44);
 R_Date("UtC-7219",5368,42);
 R_Date("UtC-7218",5404,41);
 };
-Boundary("End S78");
+Boundary("End S60");
 };
 Sequence(){
-Boundary("Start S79");
-Phase("S79")
+Boundary("Start S61");
+Phase("S61")
 {
 R_Date("GrN-22025",4850,40);
 R_Date("GrN-19724",5040,70);
 };
-Boundary("End S79");
+Boundary("End S61");
 };
 Sequence(){
-Boundary("Start S80");
-Phase("S80")
-{
-R_Date("OxA-5514",4370,60);
-R_Date("OxA-5515",4420,60);
-};
-Boundary("End S80");
-};
-Sequence(){
-Boundary("Start S81");
-Phase("S81")
+Boundary("Start S62");
+Phase("S62")
 {
 R_Date("GrN-15330",5195,25);
 R_Date("GrN-15331",5400,40);
 R_Date("UGRA-287",5630,90);
 };
-Boundary("End S81");
+Boundary("End S62");
 };
 Sequence(){
-Boundary("Start S82");
-Phase("S82")
+Boundary("Start S63");
+Phase("S63")
 {
 R_Date("Ua-20003",4265,50);
 R_Date("Ua-20004",4520,50);
 R_Date("Ua-20005",5055,55);
 };
-Boundary("End S82");
+Boundary("End S63");
 };
 Sequence(){
-Boundary("Start S83");
-Phase("S83")
+Boundary("Start S64");
+Phase("S64")
 {
 R_Date("CSIC-755",5680,80);
 R_Date("GrN-15569",5805,40);
 };
-Boundary("End S83");
+Boundary("End S64");
 };
 Sequence(){
-Boundary("Start S84");
-Phase("S84")
+Boundary("Start S65");
+Phase("S65")
 {
 R_Date("OxA-5810",3280,65);
 R_Date("OxA-5807",3405,60);
@@ -979,33 +764,34 @@ R_Date("OxA-5811",3425,65);
 R_Date("IRPA-1183",3435,35);
 R_Date("OxA-5809",3460,65);
 };
-Boundary("End S84");
+Boundary("End S65");
 };
 Sequence(){
-Boundary("Start S85");
-Phase("S85")
+Boundary("Start S66");
+Phase("S66")
 {
 R_Date("ICEN-957",4130,60);
 R_Date("ICEN-956",4180,80);
 R_Date("ICEN-955",4290,100);
 };
-Boundary("End S85");
+Boundary("End S66");
 };
 Sequence(){
-Boundary("Start S86");
-Phase("S86")
+Boundary("Start S67");
+Phase("S67")
 {
 R_Date("GrA-9256",4320,50);
 R_Date("GrN-9578",4400,50);
 R_Date("GrN-23064",4590,60);
 R_Date("GrA-14767",4990,40);
 };
-Boundary("End S86");
+Boundary("End S67");
 };
 Sequence(){
-Boundary("Start S87");
-Phase("S87")
+Boundary("Start S68");
+Phase("S68")
 {
+R_Date("GrA-9314",3250,50);
 R_Date("OxA-7436",3365,45);
 R_Date("OxA-7435",4365,50);
 R_Date("GrA-9313",4380,50);
@@ -1017,24 +803,23 @@ R_Date("GrA-9307",4540,50);
 R_Date("GrN-4925",4610,50);
 R_Date("OxA-7433",4720,40);
 R_Date("GrN-4924",5060,50);
-R_Date("GrA-9314",3250,50);
 };
-Boundary("End S87");
+Boundary("End S68");
 };
 Sequence(){
-Boundary("Start S88");
-Phase("S88")
+Boundary("Start S69");
+Phase("S69")
 {
 R_Date("GrN-13687",4480,40);
 R_Date("GrN-14770",4910,40);
 R_Date("GrN-14765",4960,40);
 R_Date("GrA-14768",4980,40);
 };
-Boundary("End S88");
+Boundary("End S69");
 };
 Sequence(){
-Boundary("Start S89");
-Phase("S89")
+Boundary("Start S70");
+Phase("S70")
 {
 R_Date("GrN-5734",4900,40);
 R_Date("CSIC-1665",4938,34);
@@ -1042,69 +827,69 @@ R_Date("CSIC-1664",4939,24);
 R_Date("GrN-26225",4970,25);
 R_Date("GrN-26226",5045,25);
 };
-Boundary("End S89");
+Boundary("End S70");
 };
 Sequence(){
-Boundary("Start S90");
-Phase("S90")
+Boundary("Start S71");
+Phase("S71")
 {
 R_Date("Gif-4859",4090,120);
 R_Date("Gif-4856",4800,80);
 R_Date("Gif-4858",5540,90);
 R_Date("Gif-4857",5780,80);
 };
-Boundary("End S90");
+Boundary("End S71");
 };
 Sequence(){
-Boundary("Start S91");
-Phase("S91")
+Boundary("Start S72");
+Phase("S72")
 {
-R_Date("Csic-771",3360,50);
-R_Date("Csic-772",3620,50);
+R_Date("CISC-771",3360,50);
+R_Date("CSIC-772",3620,50);
 };
-Boundary("End S91");
+Boundary("End S72");
 };
 Sequence(){
-Boundary("Start S92");
-Phase("S92")
+Boundary("Start S73");
+Phase("S73")
 {
 R_Date("CSIC-547",4950,50);
 R_Date("CSIC-774",5030,70);
 R_Date("KN-2768",5500,70);
 };
-Boundary("End S92");
+Boundary("End S73");
 };
 Sequence(){
-Boundary("Start S93");
-Phase("S93")
+Boundary("Start S74");
+Phase("S74")
 {
 R_Date("KN-2765",5200,65);
 R_Date("KN-2766",5230,75);
 };
-Boundary("End S93");
+Boundary("End S74");
 };
 Sequence(){
-Boundary("Start S94");
-Phase("S94")
+Boundary("Start S75");
+Phase("S75")
 {
 R_Date("CSIC-773",3250,60);
 R_Date("CSIC-659",4780,60);
 };
-Boundary("End S94");
+Boundary("End S75");
 };
 Sequence(){
-Boundary("Start S95");
-Phase("S95")
+Boundary("Start S76");
+Phase("S76")
 {
 R_Date("Sac-1782",4100,60);
 R_Date("UBAR-539",4130,90);
 R_Date("Sac-1556",4250,90);
 };
-Boundary("End S95");
+Boundary("End S76");
 };
 Sequence(){
-Boundary("Start S96");
-Phase("S96")
+Boundary("Start S77");
+Phase("S77")
 {
 R_Date("Beta-448207",3700,30);
 R_Date("ETH-69965",3718,17);
@@ -1121,71 +906,63 @@ R_Date("ETH-71513",3959,26);
 R_Date("ETH-69968",3980,24);
 R_Date("ETH-69963",3993,24);
 R_Date("ETH-71514",4123,23);
+R_Date("ETH-69960",4353,25);
 R_Date("SUERC-72323",4365,30);
 R_Date("Beta-448208",4550,30);
 R_Date("ETH-69961",4608,25);
-R_Date("ETH-69960",4353,25);
 };
-Boundary("End S96");
+Boundary("End S77");
 };
 Sequence(){
-Boundary("Start S97");
-Phase("S97")
+Boundary("Start S78");
+Phase("S78")
 {
 R_Date("Beta-233955",4210,40);
 R_Date("Beta-233956",4220,40);
-R_Date("Beta-233952",4450,40);
-R_Date("Beta-233951",4480,40);
 };
-Boundary("End S97");
+Boundary("End S78");
 };
 Sequence(){
-Boundary("Start S98");
-Phase("S98")
+Boundary("Start S79");
+Phase("S79")
 {
 R_Date("ICEN-1040",4620,60);
 R_Date("ICEN-1041",4620,60);
 };
-Boundary("End S98");
+Boundary("End S79");
 };
 Sequence(){
-Boundary("Start S99");
-Phase("S99")
+Boundary("Start S80");
+Phase("S80")
 {
 R_Date("ICEN-1028",3800,100);
 R_Date("ICEN-844",4060,70);
 };
-Boundary("End S99");
+Boundary("End S80");
 };
 Sequence(){
-Boundary("Start S100");
-Phase("S100")
+Boundary("Start S81");
+Phase("S81")
 {
 R_Date("Beta-234136",4530,40);
 R_Date("Beta-205946",4590,40);
 };
-Boundary("End S100");
+Boundary("End S81");
 };
 Sequence(){
-Boundary("Start S101");
-Phase("S101")
+Boundary("Start S82");
+Phase("S82")
 {
 R_Date("CSIC-617B",3410,60);
 R_Date("CSIC-626A",4630,90);
 R_Date("CSIC-626B",4640,60);
 R_Date("CSIC-969",4750,30);
-R_Date("CSIC-617B",3410,60);
-R_Date("CSIC-626A",4630,90);
-R_Date("CSIC-626B",4640,60);
-R_Date("CSIC-626B",4640,60);
-R_Date("CSIC-969",4750,30);
-R_Date("CSIC-969",4750,30);
 };
-Boundary("End S101");
+Boundary("End S82");
 };
 Sequence(){
-Boundary("Start S102");
-Phase("S102")
+Boundary("Start S83");
+Phase("S83")
 {
 R_Date("GrN-22816",3690,130);
 R_Date("GrN-22815",4670,150);
@@ -1196,44 +973,51 @@ R_Date("CSIC-1328",5124,30);
 R_Date("GrN-22443",5140,40);
 R_Date("CSIC-1221",5160,42);
 };
-Boundary("End S102");
+Boundary("End S83");
 };
 Sequence(){
-Boundary("Start S103");
-Phase("S103")
+Boundary("Start S99");
+Phase("S99")
+{
+R_Date("GrN-19215",2565,45);
+R_Date("GrN-19216",2970,90);
+R_Date("GrN-19217",5020,70);
+};
+Boundary("End S99");
+};
+Sequence(){
+Boundary("Start S84");
+Phase("S84")
 {
 R_Date("CSIC-1119",5087,31);
 R_Date("CSIC-1120",5131,28);
 R_Date("CSIC-1121",5435,44);
 };
-Boundary("End S103");
+Boundary("End S84");
 };
 Sequence(){
-Boundary("Start S104");
-Phase("S104")
+Boundary("Start S85");
+Phase("S85")
 {
+R_Date("H-2048",3640,60);
 R_Date("H-2049",4260,60);
 R_Date("OxA-5510",4395,60);
 R_Date("OxA-5509",4410,75);
 };
-Boundary("End S104");
+Boundary("End S85");
 };
 Sequence(){
-Boundary("Start S105");
-Phase("S105")
+Boundary("Start S86");
+Phase("S86")
 {
 R_Date("GrN-19567",5075,40);
-R_Date("GrN-19567",5075,40);
-R_Date("GrN-19569",5305,30);
-R_Date("GrN-19569",5305,30);
-R_Date("GrN-19567",5075,40);
 R_Date("GrN-19569",5305,30);
 };
-Boundary("End S105");
+Boundary("End S86");
 };
 Sequence(){
-Boundary("Start S106");
-Phase("S106")
+Boundary("Start S87");
+Phase("S87")
 {
 R_Date("Beta-189999",3510,40);
 R_Date("Beta-190000",3640,40);
@@ -1242,21 +1026,21 @@ R_Date("Beta-190003",4400,40);
 R_Date("Beta-189998",4490,60);
 R_Date("Beta-190001",4520,40);
 };
-Boundary("End S106");
+Boundary("End S87");
 };
 Sequence(){
-Boundary("Start S107");
-Phase("S107")
+Boundary("Start S88");
+Phase("S88")
 {
 R_Date("Beta-190008",4060,50);
 R_Date("Beta-190007",4190,40);
 R_Date("Beta-190004",4290,40);
 };
-Boundary("End S107");
+Boundary("End S88");
 };
 Sequence(){
-Boundary("Start S108");
-Phase("S108")
+Boundary("Start S89");
+Phase("S89")
 {
 R_Date("UtC-4739",3365,30);
 R_Date("UtC-4736",3380,40);
@@ -1264,11 +1048,11 @@ R_Date("KIA-15224",3420,30);
 R_Date("UtC-4744",3460,40);
 R_Date("KIA-15223",3485,40);
 };
-Boundary("End S108");
+Boundary("End S89");
 };
 Sequence(){
-Boundary("Start S109");
-Phase("S109")
+Boundary("Start S90");
+Phase("S90")
 {
 R_Date("Beta-166420",3720,50);
 R_Date("Beta-166421",3730,40);
@@ -1280,16 +1064,179 @@ R_Date("Beta-166416",4270,40);
 R_Date("Beta-166422",4270,40);
 R_Date("Beta-176897",4290,40);
 };
+Boundary("End S90");
+};
+Sequence(){
+Boundary("Start S91");
+Phase("S91")
+{
+R_Date("ICEN-1201",4990,70);
+R_Date("GrN-21304",5060,50);
+R_Date("ICEN-1200",5100,70);
+R_Date("GrN-20791",5130,40);
+};
+Boundary("End S91");
+};
+Sequence(){
+Boundary("Start S92");
+Phase("S92")
+{
+R_Date("KIA-18762",3030,40);
+R_Date("KIA-20204",3135,35);
+R_Date("KIA- 18761",3395,35);
+R_Date("KIA-21225",2890,25);
+R_Date("KIA-18767",2955,30);
+};
+Boundary("End S92");
+};
+Sequence(){
+Boundary("Start S101");
+Phase("S101")
+{
+R_Date("UBA-27604",2180,27);
+R_Date("UBA-27584",2396,42);
+R_Date("UBA-27576",2427,33);
+R_Date("UBA-29077",2431,33);
+R_Date("UBA-27586",2438,24);
+R_Date("UBA-27578",2441,29);
+R_Date("UBA-27577",2442,35);
+R_Date("UBA-29076",2446,28);
+R_Date("UBA-27574",2451,39);
+R_Date("UBA-27590",2466,33);
+R_Date("UBA-27607",2481,25);
+R_Date("UBA-27580",2484,48);
+R_Date("I-11067",2490,90);
+R_Date("UBA-27571",2509,31);
+R_Date("UBA-27583",2517,27);
+R_Date("UBA-27585",2535,31);
+R_Date("UBA-27469",2542,33);
+R_Date("UBA-27618",2555,28);
+R_Date("UBA-27570",2557,45);
+R_Date("I-11068",2560,125);
+R_Date("UBA-27615",2564,49);
+R_Date("UBA-27617",2579,38);
+R_Date("UBA-27591",2584,35);
+R_Date("UBA-27573",2592,50);
+R_Date("UBA-27599",2597,39);
+R_Date("UBA-27620",2658,38);
+R_Date("UBA-27612",2848,36);
+R_Date("UBA-27589",2928,31);
+R_Date("UBA-27567",2953,55);
+};
+Boundary("End S101");
+};
+Sequence(){
+Boundary("Start S93");
+Phase("S93")
+{
+R_Date("I-11069",3470,95);
+R_Date("I-11070",3520,95);
+};
+Boundary("End S93");
+};
+Sequence(){
+Boundary("Start S94");
+Phase("S94")
+{
+R_Date("KIA-11903",3305,25);
+R_Date("KIA-13225",3365,30);
+R_Date("UBAR-385",3470,120);
+R_Date("KIA-13224",3480,30);
+};
+Boundary("End S94");
+};
+Sequence(){
+Boundary("Start S95");
+Phase("S95")
+{
+R_Date("GrN-26475",3250,50);
+R_Date("GrN-26488",3250,40);
+R_Date("GrA-37339",4055,35);
+};
+Boundary("End S95");
+};
+Sequence(){
+Boundary("Start S96");
+Phase("S96")
+{
+R_Date("GrA-15941",4860,60);
+R_Date("GrA-15903",5000,60);
+};
+Boundary("End S96");
+};
+Sequence(){
+Boundary("Start S97");
+Phase("S97")
+{
+R_Date("Ua-10831",3905,75);
+R_Date("Ua-10830",4905,70);
+};
+Boundary("End S97");
+};
+Sequence(){
+Boundary("Start S104");
+Phase("S104")
+{
+R_Date("Beta-194313",4390,50);
+R_Date("Beta-194312",4190,50);
+};
+Boundary("End S104");
+};
+Sequence(){
+Boundary("Start S105");
+Phase("S105")
+{
+R_Date("OxTL169b1",4640,430);
+R_Date("OxTL169b2",4305,400);
+R_Date("OxTL169b3",4615,450);
+};
+Boundary("End S105");
+};
+Sequence(){
+Boundary("Start S106");
+Phase("S106")
+{
+R_Date("UGAMS-8454",3720,25);
+R_Date("UGAMS-8455",4420,25);
+};
+Boundary("End S106");
+};
+Sequence(){
+Boundary("Start S107");
+Phase("S107")
+{
+R_Date("Beta-225167",4640,40);
+R_Date("Beta-228577",4770,40);
+};
+Boundary("End S107");
+};
+Sequence(){
+Boundary("Start S108");
+Phase("S108")
+{
+R_Date("GX-29950",3650,40);
+R_Date("Beta-157730",3810,40);
+R_Date("Beta-157732",3830,40);
+R_Date("Beta-205141",3860,40);
+};
+Boundary("End S108");
+};
+Sequence(){
+Boundary("Start S109");
+Phase("S109")
+{
+R_Date("Beta-218062",3330,40);
+R_Date("Beta-216245",3970,40);
+};
 Boundary("End S109");
 };
 Sequence(){
 Boundary("Start S110");
 Phase("S110")
 {
-R_Date("ICEN-1201",4990,70);
-R_Date("GrN-21304",5060,50);
-R_Date("ICEN-1200",5100,70);
-R_Date("GrN-20791",5130,40);
+R_Date("Beta-327747",4130,30);
+R_Date("Beta-327748",4060,30);
+R_Date("Beta-237750",4030,40);
 };
 Boundary("End S110");
 };
@@ -1297,13 +1244,10 @@ Sequence(){
 Boundary("Start S111");
 Phase("S111")
 {
-R_Date("KIA-23403",3025,25);
-R_Date("KIA-23404",3085,25);
-R_Date("KIA-23405",3185,25);
-R_Date("KIA-23149",3225,35);
-R_Date("KIA-23407",3240,25);
-R_Date("KIA-23402",3290,25);
-R_Date("KIA-23150",3390,35);
+R_Date("Beta-308793",3970,30);
+R_Date("Beta-308792",3890,30);
+R_Date("Beta-308791",4090,30);
+R_Date("Beta-308789",3840,30);
 };
 Boundary("End S111");
 };
@@ -1311,9 +1255,8 @@ Sequence(){
 Boundary("Start S112");
 Phase("S112")
 {
-R_Date("KIA-18762",3030,40);
-R_Date("KIA-20204",3135,35);
-R_Date("KIA- 18761",3395,35);
+R_Date("Beta-150157",4200,70);
+R_Date("Beta-150158",3820,50);
 };
 Boundary("End S112");
 };
@@ -1321,8 +1264,9 @@ Sequence(){
 Boundary("Start S113");
 Phase("S113")
 {
-R_Date("I-11069",3470,95);
-R_Date("I-11070",3520,95);
+R_Date("CNA-341",3680,50);
+R_Date("CNA-344",3940,45);
+R_Date("CNA-342",4050,50);
 };
 Boundary("End S113");
 };
@@ -1330,8 +1274,9 @@ Sequence(){
 Boundary("Start S114");
 Phase("S114")
 {
-R_Date("Sac-2261",4500,50);
-R_Date("Sac-2260",4530,50);
+R_Date("OxTL-169b1",3860,360);
+R_Date("OxTL-169b2",4805,400);
+R_Date("OxTL-169b3",4595,420);
 };
 Boundary("End S114");
 };
@@ -1339,60 +1284,12 @@ Sequence(){
 Boundary("Start S115");
 Phase("S115")
 {
-R_Date("KIA-11903",3305,25);
-R_Date("KIA-13225",3365,30);
-R_Date("UBAR-385",3470,120);
-R_Date("KIA-13224",3480,30);
+R_Date("OxTL-169f1",3380,340);
+R_Date("OxTL-169f2",3340,350);
+R_Date("OxTL-169f3",3255,330);
+R_Date("OxTL-169f4",3015,340);
 };
 Boundary("End S115");
-};
-Sequence(){
-Boundary("Start S116");
-Phase("S116")
-{
-R_Date("GrN-26475",3250,50);
-R_Date("GrN-26488",3250,40);
-R_Date("GrA-37339",4055,35);
-};
-Boundary("End S116");
-};
-Sequence(){
-Boundary("Start S117");
-Phase("S117")
-{
-R_Date("GrA-15941",4860,60);
-R_Date("GrA-15903",5000,60);
-};
-Boundary("End S117");
-};
-Sequence(){
-Boundary("Start S118");
-Phase("S118")
-{
-R_Date("Ua-10831",3905,75);
-R_Date("Ua-10830",4905,70);
-};
-Boundary("End S118");
-};
-Sequence(){
-Boundary("Start S119");
-Phase("S119")
-{
-R_Date("GX-29950",3650,40);
-R_Date("Beta-157730",3810,40);
-R_Date("Beta-157732",3830,40);
-R_Date("Beta-205141",3860,40);
-};
-Boundary("End S119");
-};
-Sequence(){
-Boundary("Start S120");
-Phase("S120")
-{
-R_Date("Beta-218062",3330,40);
-R_Date("Beta-216245",3970,40);
-};
-Boundary("End S120");
 };
 };
 MCMC_Sample("MCMC_uniform",100,5000){
@@ -1400,8 +1297,12 @@ Date("=Start S1");
 Date("=End S1");
 Date("=Start S2");
 Date("=End S2");
+Date("=Start S102");
+Date("=End S102");
 Date("=Start S3");
 Date("=End S3");
+Date("=Start S98");
+Date("=End S98");
 Date("=Start S4");
 Date("=End S4");
 Date("=Start S5");
@@ -1432,12 +1333,18 @@ Date("=Start S17");
 Date("=End S17");
 Date("=Start S18");
 Date("=End S18");
+Date("=Start S103");
+Date("=End S103");
 Date("=Start S19");
 Date("=End S19");
+Date("=Start S100");
+Date("=End S100");
 Date("=Start S20");
 Date("=End S20");
 Date("=Start S21");
 Date("=End S21");
+Date("=Start S26");
+Date("=End S26");
 Date("=Start S22");
 Date("=End S22");
 Date("=Start S23");
@@ -1446,8 +1353,6 @@ Date("=Start S24");
 Date("=End S24");
 Date("=Start S25");
 Date("=End S25");
-Date("=Start S26");
-Date("=End S26");
 Date("=Start S27");
 Date("=End S27");
 Date("=Start S28");
@@ -1562,6 +1467,8 @@ Date("=Start S82");
 Date("=End S82");
 Date("=Start S83");
 Date("=End S83");
+Date("=Start S99");
+Date("=End S99");
 Date("=Start S84");
 Date("=End S84");
 Date("=Start S85");
@@ -1580,6 +1487,8 @@ Date("=Start S91");
 Date("=End S91");
 Date("=Start S92");
 Date("=End S92");
+Date("=Start S101");
+Date("=End S101");
 Date("=Start S93");
 Date("=End S93");
 Date("=Start S94");
@@ -1590,18 +1499,6 @@ Date("=Start S96");
 Date("=End S96");
 Date("=Start S97");
 Date("=End S97");
-Date("=Start S98");
-Date("=End S98");
-Date("=Start S99");
-Date("=End S99");
-Date("=Start S100");
-Date("=End S100");
-Date("=Start S101");
-Date("=End S101");
-Date("=Start S102");
-Date("=End S102");
-Date("=Start S103");
-Date("=End S103");
 Date("=Start S104");
 Date("=End S104");
 Date("=Start S105");
@@ -1626,15 +1523,5 @@ Date("=Start S114");
 Date("=End S114");
 Date("=Start S115");
 Date("=End S115");
-Date("=Start S116");
-Date("=End S116");
-Date("=Start S117");
-Date("=End S117");
-Date("=Start S118");
-Date("=End S118");
-Date("=Start S119");
-Date("=End S119");
-Date("=Start S120");
-Date("=End S120");
 };
 };
