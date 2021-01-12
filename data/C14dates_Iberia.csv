@@ -104,8 +104,8 @@ FID;Country;County;Latitude;Longitude;Region;SiteID;Site;Architecture;LabNumber;
 152;Spain;Galicia;43,19017;-8,96934;North;S36;Dombate old;Polygon/al chamber;CAMS- 101904;4890;30;n/a;n/a;n/a;n/a;n/a;Organic material, seeds and wood;Fragment of pottery;Steelman, Carrera et al 2005;n/a;n/a;n/a
 153;Spain;Galicia;43,19017;-8,96934;North;S36;Dombate old;Polygon/al chamber;CAMS- 101903;4895;30;n/a;n/a;n/a;n/a;n/a;Organic material, seeds and wood;Fragment of pottery;Steelman, Carrera et al 2005;n/a;n/a;n/a
 190;Spain;North;42,67333333;-3,717222222;North;S44;Fuentepecina;Passage grave;GrN-18667;5170;100;n/a;n/a;n/a;n/a;n/a;Charcoal;Basement chamber;Boaventura 2009, annex 33;Delibes de Castro/Rojo Guerra 1997 ;"Boaventura 2009, annex 33; Delibes de Castro/Rojo Guerra 1997 ";Fuentepecina I
-191;Spain;North;42,67111111;-3,7175;North;S44;Fuentepecina;Passage grave;GrN-16073;5270;140;n/a;n/a;n/a;n/a;n/a;Charcoal;Ancient soil level 6;Cassen et al. 1993, Tab. 2, 513.;n/a;Cassen et al 1993, Tab. 2, 513;Fuentepecina II according Idearq.org
-192;Spain;North;42,67111111;-3,7175;North;S44;Fuentepecina;Passage grave;GrN-18669;5375;45;n/a;n/a;n/a;n/a;n/a;Charcoal;Chamber level 6;Boaventura 2009, annex 33;Delibes de Castro/Rojo Guerra 1997 ;"Boaventura 2009, annex 33; Delibes de Castro/Rojo Guerra 1997 ";Fuentepecina II according Idearq.org
+191;Spain;North;42,67333333;-3,717222222;North;S44;Fuentepecina;Passage grave;GrN-16073;5270;140;n/a;n/a;n/a;n/a;n/a;Charcoal;Ancient soil level 6;Cassen et al. 1993, Tab. 2, 513.;n/a;Cassen et al 1993, Tab. 2, 513;Fuentepecina II according Idearq.org
+192;Spain;North;42,67333333;-3,717222222;North;S44;Fuentepecina;Passage grave;GrN-18669;5375;45;n/a;n/a;n/a;n/a;n/a;Charcoal;Chamber level 6;Boaventura 2009, annex 33;Delibes de Castro/Rojo Guerra 1997 ;"Boaventura 2009, annex 33; Delibes de Castro/Rojo Guerra 1997 ";Fuentepecina II according Idearq.org
 193;Spain;Asturias;43,180315;-6,916583;North;S45;La Xorenga;Tumulus;CSIC-1382;5059;30;n/a;n/a;n/a;n/a;n/a;Charcoal;Sector C;Cabal et al 2000, 131;Sanchez Hidalgo 1999;Cabal et al 2000, 131;Site also named as Canadeiro I
 194;Spain;Asturias;43,180315;-6,916583;North;S45;La Xorenga;Tumulus;CSIC-1381;5080;30;n/a;n/a;n/a;n/a;n/a;Charcoal;Sector C;Cabal et al 2000, 131;Sanchez Hidalgo 1999;Cabal et al 2000, 131;Site also named as Canadeiro I
 199;Spain;Basque Country;43,0867175;-2,2154198;North;S47;Larrarte;Dolmen;GrA-20497;3620;60;n/a;n/a;n/a;n/a;n/a;Human bone;n/a;n/a;n/a;n/a;n/a
@@ -221,44 +221,44 @@ FID;Country;County;Latitude;Longitude;Region;SiteID;Site;Architecture;LabNumber;
 337;Spain;Andalusia;37,36583333;-3,2975;South;S77;Panoria;Megalithic tomb;ETH-71513;3959;26;-20,6;9,7;n/a;n/a;n/a;Human bone;Tomb 8. Funerary chamber (Phase I);Aranda Jimenez et al 2017, Tab 6;n/a;n/a;n/a
 338;Spain;Andalusia;37,36583333;-3,2975;South;S77;Panoria;Megalithic tomb;ETH-69968;3980;24;-20,1;9;n/a;n/a;n/a;Human bone;Tomb 10. Chamber. Left femur;Aranda Jimenez et al 2017, Tab 9;n/a;n/a;n/a
 339;Spain;Andalusia;37,36583333;-3,2975;South;S77;Panoria;Megalithic tomb;ETH-69963;3993;24;-19,6;8,2;n/a;n/a;n/a;Human bone;Tomb 10. Second section of the passage. Left femur;Aranda Jimenez et al 2017, Tab 8;n/a;n/a;n/a
-340;Spain;Andalusia;37,36555556;-3,2975;South;S77;Panoria;Megalithic tomb;ETH-71514;4123;23;-20,4;9,1;n/a;n/a;n/a;Human bone;Tomb 18. Right humerus from an adult;Aranda Jimenez et al 2017, Tab 20;n/a;n/a;n/a
-341;Spain;Andalusia;37,36583333;-3,297222222;South;S77;Panoria;Megalithic tomb;ETH-69960;4353;25;-19,8;9,7;n/a;n/a;n/a;Human bone;Tomb 6. Funerary chamber. Femur from an adult;Aranda Jimenez et al 2017, Tab 2;n/a;n/a;n/a
+340;Spain;Andalusia;37,36583333;-3,2975;South;S77;Panoria;Megalithic tomb;ETH-71514;4123;23;-20,4;9,1;n/a;n/a;n/a;Human bone;Tomb 18. Right humerus from an adult;Aranda Jimenez et al 2017, Tab 20;n/a;n/a;n/a
+341;Spain;Andalusia;37,36583333;-3,2975;South;S77;Panoria;Megalithic tomb;ETH-69960;4353;25;-19,8;9,7;n/a;n/a;n/a;Human bone;Tomb 6. Funerary chamber. Femur from an adult;Aranda Jimenez et al 2017, Tab 2;n/a;n/a;n/a
 342;Spain;Andalusia;37,36583333;-3,2975;South;S77;Panoria;Megalithic tomb;SUERC-72323;4365;30;n/a;9,4;n/a;n/a;n/a;Human bone;Tomb 8. Funerary chamber (Phase I). Right femur from an adult;Aranda Jimenez et al 2017, Tab 7;n/a;n/a;n/a
 343;Spain;Andalusia;37,36583333;-3,2975;South;S77;Panoria;Megalithic tomb;Beta-448208;4550;30;n/a;10,2;n/a;n/a;n/a;Human bone;Tomb 7 funerary chamber;Aranda Jimenez et al 2017, Tab 4;n/a;n/a;n/a
 344;Spain;Andalusia;37,36583333;-3,2975;South;S77;Panoria;Megalithic tomb;ETH-69961;4608;25;-18,2;9,3;n/a;n/a;n/a;Human bone;Tomb 7 funerary chamber. Right humerus from an adult;Aranda Jimenez et al 2017, Tab 3;n/a;n/a;n/a
 345;Spain;Andalusia;36,38611111;-5,7325;South;S78;Paraje de Monte Bajo 4;Passage grave;Beta-233955;4210;40;-24;n/a;n/a;n/a;n/a;Charcoal;Tomb 4;Garcia Sanjuan  et al 2011, Tab. 3;n/a;Garcia Sanjuan  et al 2011, Tab. 3;n/a
 346;Spain;Andalusia;36,38611111;-5,7325;South;S78;Paraje de Monte Bajo 4;Passage grave;Beta-233956;4220;40;-25,1;n/a;n/a;n/a;n/a;Charcoal;Tomb 4;Garcia Sanjuan  et al 2011, Tab. 3;n/a;Garcia Sanjuan  et al 2011, Tab. 3;n/a
 408;Spain;Andalusia;37,72777778;-5,482222222;South;S101;Setefilla;Megalithic grave;UBA-27604;2180;27;n/a;n/a;n/a;n/a;n/a;Human bone;Mound B, Tomb 8;Brandherm/Krueger, 2017;n/a;n/a;n/a
-409;Spain;Andalusia;37,72805556;-5,4825;South;S101;Setefilla;Megalithic grave;UBA-27584;2396;42;n/a;n/a;n/a;n/a;n/a;Human bone;Mound A, Tomb 31;Brandherm/Krueger, 2017;n/a;n/a;n/a
-410;Spain;Andalusia;37,72805556;-5,4825;South;S101;Setefilla;Megalithic grave;UBA-27576;2427;33;n/a;n/a;n/a;n/a;n/a;Human bone;Mound A, Tomb 17;Brandherm/Krueger, 2017;n/a;n/a;n/a
+409;Spain;Andalusia;37,72777778;-5,482222222;South;S101;Setefilla;Megalithic grave;UBA-27584;2396;42;n/a;n/a;n/a;n/a;n/a;Human bone;Mound A, Tomb 31;Brandherm/Krueger, 2017;n/a;n/a;n/a
+410;Spain;Andalusia;37,72777778;-5,482222222;South;S101;Setefilla;Megalithic grave;UBA-27576;2427;33;n/a;n/a;n/a;n/a;n/a;Human bone;Mound A, Tomb 17;Brandherm/Krueger, 2017;n/a;n/a;n/a
 411;Spain;Andalusia;37,72777778;-5,482222222;South;S101;Setefilla;Megalithic grave;UBA-29077;2431;33;n/a;n/a;n/a;n/a;n/a;Human bone;Mound B, Tomb 23;Brandherm/Krueger, 2017;n/a;n/a;n/a
-412;Spain;Andalusia;37,72805556;-5,4825;South;S101;Setefilla;Megalithic grave;UBA-27586;2438;24;n/a;n/a;n/a;n/a;n/a;Human bone;Mound A, Tomb 43;Brandherm/Krueger, 2017;n/a;n/a;n/a
-413;Spain;Andalusia;37,72805556;-5,4825;South;S101;Setefilla;Megalithic grave;UBA-27578;2441;29;n/a;n/a;n/a;n/a;n/a;Human bone;Mound A, Tomb 20;Brandherm/Krueger, 2017;n/a;n/a;n/a
-414;Spain;Andalusia;37,72805556;-5,4825;South;S101;Setefilla;Megalithic grave;UBA-27577;2442;35;n/a;n/a;n/a;n/a;n/a;Human bone;Mound A, Tomb 19;Brandherm/Krueger, 2017;n/a;n/a;n/a
+412;Spain;Andalusia;37,72777778;-5,482222222;South;S101;Setefilla;Megalithic grave;UBA-27586;2438;24;n/a;n/a;n/a;n/a;n/a;Human bone;Mound A, Tomb 43;Brandherm/Krueger, 2017;n/a;n/a;n/a
+413;Spain;Andalusia;37,72777778;-5,482222222;South;S101;Setefilla;Megalithic grave;UBA-27578;2441;29;n/a;n/a;n/a;n/a;n/a;Human bone;Mound A, Tomb 20;Brandherm/Krueger, 2017;n/a;n/a;n/a
+414;Spain;Andalusia;37,72777778;-5,482222222;South;S101;Setefilla;Megalithic grave;UBA-27577;2442;35;n/a;n/a;n/a;n/a;n/a;Human bone;Mound A, Tomb 19;Brandherm/Krueger, 2017;n/a;n/a;n/a
 415;Spain;Andalusia;37,72777778;-5,482222222;South;S101;Setefilla;Megalithic grave;UBA-29076;2446;28;n/a;n/a;n/a;n/a;n/a;Human bone;Mound B, Tomb 11;Brandherm/Krueger, 2017;n/a;n/a;n/a
-416;Spain;Andalusia;37,72805556;-5,4825;South;S101;Setefilla;Megalithic grave;UBA-27574;2451;39;n/a;n/a;n/a;n/a;n/a;Human bone;Mound A, Tomb 14;Brandherm/Krueger, 2017;n/a;n/a;n/a
-417;Spain;Andalusia;37,72805556;-5,4825;South;S101;Setefilla;Megalithic grave;UBA-27590;2466;33;n/a;n/a;n/a;n/a;n/a;Human bone;Mound A, Tomb 51;Brandherm/Krueger, 2017;n/a;n/a;n/a
+416;Spain;Andalusia;37,72777778;-5,482222222;South;S101;Setefilla;Megalithic grave;UBA-27574;2451;39;n/a;n/a;n/a;n/a;n/a;Human bone;Mound A, Tomb 14;Brandherm/Krueger, 2017;n/a;n/a;n/a
+417;Spain;Andalusia;37,72777778;-5,482222222;South;S101;Setefilla;Megalithic grave;UBA-27590;2466;33;n/a;n/a;n/a;n/a;n/a;Human bone;Mound A, Tomb 51;Brandherm/Krueger, 2017;n/a;n/a;n/a
 418;Spain;Andalusia;37,72777778;-5,482222222;South;S101;Setefilla;Megalithic grave;UBA-27607;2481;25;n/a;n/a;n/a;n/a;n/a;Human bone;Mound B, Tomb 12;Brandherm/Krueger, 2017;n/a;n/a;n/a
-419;Spain;Andalusia;37,72805556;-5,4825;South;S101;Setefilla;Megalithic grave;UBA-27580;2484;48;n/a;n/a;n/a;n/a;n/a;Human bone;Mound A, Tomb 22;Brandherm/Krueger, 2017;n/a;n/a;n/a
-420;Spain;Andalusia;37,73527778;-5,481111111;South;S101;Setefilla;Megalithic grave;I-11067;2490;90;n/a;n/a;n/a;n/a;n/a;Charcoal;Settlement, level 9;Aubet Semmler et al 1983;n/a;n/a;n/a
-421;Spain;Andalusia;37,72805556;-5,4825;South;S101;Setefilla;Megalithic grave;UBA-27571;2509;31;n/a;n/a;n/a;n/a;n/a;Human bone;Mound A, Tomb 11;Brandherm/Krueger, 2017;n/a;n/a;n/a
-422;Spain;Andalusia;37,72805556;-5,4825;South;S101;Setefilla;Megalithic grave;UBA-27583;2517;27;n/a;n/a;n/a;n/a;n/a;Human bone;Mound A, Tomb 30;Brandherm/Krueger, 2017;n/a;n/a;n/a
-423;Spain;Andalusia;37,72805556;-5,4825;South;S101;Setefilla;Megalithic grave;UBA-27585;2535;31;n/a;n/a;n/a;n/a;n/a;Human bone;Mound A, Tomb 32;Brandherm/Krueger, 2017;n/a;n/a;n/a
-424;Spain;Andalusia;37,72805556;-5,4825;South;S101;Setefilla;Megalithic grave;UBA-27469;2542;33;n/a;n/a;n/a;n/a;n/a;Human bone;Mound A, Tomb 8;Brandherm/Krueger, 2017;n/a;n/a;n/a
+419;Spain;Andalusia;37,72777778;-5,482222222;South;S101;Setefilla;Megalithic grave;UBA-27580;2484;48;n/a;n/a;n/a;n/a;n/a;Human bone;Mound A, Tomb 22;Brandherm/Krueger, 2017;n/a;n/a;n/a
+420;Spain;Andalusia;37,72777778;-5,482222222;South;S101;Setefilla;Megalithic grave;I-11067;2490;90;n/a;n/a;n/a;n/a;n/a;Charcoal;Settlement, level 9;Aubet Semmler et al 1983;n/a;n/a;n/a
+421;Spain;Andalusia;37,72777778;-5,482222222;South;S101;Setefilla;Megalithic grave;UBA-27571;2509;31;n/a;n/a;n/a;n/a;n/a;Human bone;Mound A, Tomb 11;Brandherm/Krueger, 2017;n/a;n/a;n/a
+422;Spain;Andalusia;37,72777778;-5,482222222;South;S101;Setefilla;Megalithic grave;UBA-27583;2517;27;n/a;n/a;n/a;n/a;n/a;Human bone;Mound A, Tomb 30;Brandherm/Krueger, 2017;n/a;n/a;n/a
+423;Spain;Andalusia;37,72777778;-5,482222222;South;S101;Setefilla;Megalithic grave;UBA-27585;2535;31;n/a;n/a;n/a;n/a;n/a;Human bone;Mound A, Tomb 32;Brandherm/Krueger, 2017;n/a;n/a;n/a
+424;Spain;Andalusia;37,72777778;-5,482222222;South;S101;Setefilla;Megalithic grave;UBA-27469;2542;33;n/a;n/a;n/a;n/a;n/a;Human bone;Mound A, Tomb 8;Brandherm/Krueger, 2017;n/a;n/a;n/a
 425;Spain;Andalusia;37,72777778;-5,482222222;South;S101;Setefilla;Megalithic grave;UBA-27618;2555;28;n/a;n/a;n/a;n/a;n/a;Human bone;Mound B, Tomb 27;Brandherm/Krueger, 2017;n/a;n/a;n/a
-426;Spain;Andalusia;37,72805556;-5,4825;South;S101;Setefilla;Megalithic grave;UBA-27570;2557;45;n/a;n/a;n/a;n/a;n/a;Human bone;Mound A, Tomb 10;Brandherm/Krueger, 2017;n/a;n/a;n/a
-427;Spain;Andalusia;37,73527778;-5,481111111;South;S101;Setefilla;Megalithic grave;I-11068;2560;125;n/a;n/a;n/a;n/a;n/a;Charcoal;Settlement, level 12;Aubet Semmler et al 1983;n/a;n/a;n/a
+426;Spain;Andalusia;37,72777778;-5,482222222;South;S101;Setefilla;Megalithic grave;UBA-27570;2557;45;n/a;n/a;n/a;n/a;n/a;Human bone;Mound A, Tomb 10;Brandherm/Krueger, 2017;n/a;n/a;n/a
+427;Spain;Andalusia;37,72777778;-5,482222222;South;S101;Setefilla;Megalithic grave;I-11068;2560;125;n/a;n/a;n/a;n/a;n/a;Charcoal;Settlement, level 12;Aubet Semmler et al 1983;n/a;n/a;n/a
 428;Spain;Andalusia;37,72777778;-5,482222222;South;S101;Setefilla;Megalithic grave;UBA-27615;2564;49;n/a;n/a;n/a;n/a;n/a;Human bone;Mound B, Tomb 23;Brandherm/Krueger, 2017;n/a;n/a;n/a
 429;Spain;Andalusia;37,72777778;-5,482222222;South;S101;Setefilla;Megalithic grave;UBA-27617;2579;38;n/a;n/a;n/a;n/a;n/a;Human bone;Mound B, Tomb 26;Brandherm/Krueger, 2017;n/a;n/a;n/a
-430;Spain;Andalusia;37,72805556;-5,4825;South;S101;Setefilla;Megalithic grave;UBA-27591;2584;35;n/a;n/a;n/a;n/a;n/a;Human bone;Mound A, Tomb 52;Brandherm/Krueger, 2017;n/a;n/a;n/a
-431;Spain;Andalusia;37,72805556;-5,4825;South;S101;Setefilla;Megalithic grave;UBA-27573;2592;50;n/a;n/a;n/a;n/a;n/a;Human bone;Mound A, Tomb 13;Brandherm/Krueger, 2017;n/a;n/a;n/a
+430;Spain;Andalusia;37,72777778;-5,482222222;South;S101;Setefilla;Megalithic grave;UBA-27591;2584;35;n/a;n/a;n/a;n/a;n/a;Human bone;Mound A, Tomb 52;Brandherm/Krueger, 2017;n/a;n/a;n/a
+431;Spain;Andalusia;37,72777778;-5,482222222;South;S101;Setefilla;Megalithic grave;UBA-27573;2592;50;n/a;n/a;n/a;n/a;n/a;Human bone;Mound A, Tomb 13;Brandherm/Krueger, 2017;n/a;n/a;n/a
 432;Spain;Andalusia;37,72777778;-5,482222222;South;S101;Setefilla;Megalithic grave;UBA-27599;2597;39;n/a;n/a;n/a;n/a;n/a;Human bone;Mound B, Tomb 2;Brandherm/Krueger, 2017;n/a;n/a;n/a
 433;Spain;Andalusia;37,72777778;-5,482222222;South;S101;Setefilla;Megalithic grave;UBA-27620;2658;38;n/a;n/a;n/a;n/a;n/a;Human bone;Mound B, Tomb 29;Brandherm/Krueger, 2017;n/a;n/a;n/a
-434;Spain;Andalusia;37,72805556;-5,4825;South;S101;Setefilla;Megalithic grave;UBA-27612;2848;36;n/a;n/a;n/a;n/a;n/a;Human bone;Mound A, Tomb 18;Brandherm/Krueger, 2017;n/a;n/a;n/a
-435;Spain;Andalusia;37,72805556;-5,4825;South;S101;Setefilla;Megalithic grave;UBA-27589;2928;31;n/a;n/a;n/a;n/a;n/a;Human bone;Mound A, Tomb 47;Brandherm/Krueger, 2017;n/a;n/a;n/a
-436;Spain;Andalusia;37,72805556;-5,4825;South;S101;Setefilla;Megalithic grave;UBA-27567;2953;55;n/a;n/a;n/a;n/a;n/a;Human bone;Mound A, Tomb 5;Brandherm/Krueger, 2017;n/a;n/a;n/a
-437;Spain;Andalusia;37,73527778;-5,481111111;South;S93;Setefilla;Megalithic grave;I-11069;3470;95;n/a;n/a;n/a;n/a;n/a;Charcoal;Settlement, level 13;Garcia Sanjuan 2009, 19;n/a;"Garc¡a Sanju n 2009, 19; Aubet Semmler et al 1983";n/a
-438;Spain;Andalusia;37,73527778;-5,481111111;South;S93;Setefilla;Megalithic grave;I-11070;3520;95;n/a;n/a;n/a;n/a;n/a;Charcoal;Settlement, level 14;Garcia Sanjuan 2009, 19;n/a;"Garc¡a Sanju n 2009, 19; Aubet Semmler et al 1983";n/a
+434;Spain;Andalusia;37,72777778;-5,482222222;South;S101;Setefilla;Megalithic grave;UBA-27612;2848;36;n/a;n/a;n/a;n/a;n/a;Human bone;Mound A, Tomb 18;Brandherm/Krueger, 2017;n/a;n/a;n/a
+435;Spain;Andalusia;37,72777778;-5,482222222;South;S101;Setefilla;Megalithic grave;UBA-27589;2928;31;n/a;n/a;n/a;n/a;n/a;Human bone;Mound A, Tomb 47;Brandherm/Krueger, 2017;n/a;n/a;n/a
+436;Spain;Andalusia;37,72777778;-5,482222222;South;S101;Setefilla;Megalithic grave;UBA-27567;2953;55;n/a;n/a;n/a;n/a;n/a;Human bone;Mound A, Tomb 5;Brandherm/Krueger, 2017;n/a;n/a;n/a
+437;Spain;Andalusia;37,72777778;-5,482222222;South;S101;Setefilla;Megalithic grave;I-11069;3470;95;n/a;n/a;n/a;n/a;n/a;Charcoal;Settlement, level 13;Garcia Sanjuan 2009, 19;n/a;"Garc¡a Sanju n 2009, 19; Aubet Semmler et al 1983";n/a
+438;Spain;Andalusia;37,72777778;-5,482222222;South;S101;Setefilla;Megalithic grave;I-11070;3520;95;n/a;n/a;n/a;n/a;n/a;Charcoal;Settlement, level 14;Garcia Sanjuan 2009, 19;n/a;"Garc¡a Sanju n 2009, 19; Aubet Semmler et al 1983";n/a
 443;Spain;Andalusia;36,69916667;-4,849722222;South;S95;Tesorillo de la Llana;Megalithic grave;GrN-26475;3250;50;n/a;n/a;n/a;n/a;n/a;Human bone;Burial chamber;Garcia Sanjuan et al 2011, Tab. 4;n/a;Garcia Sanjuan et al 2011, Tab. 4;n/a
 444;Spain;Andalusia;36,69916667;-4,849722222;South;S95;Tesorillo de la Llana;Megalithic grave;GrN-26488;3250;40;n/a;n/a;n/a;n/a;n/a;Human bone;Burial chamber;"Garciaa Sanjuan 2009, 19; Fernandez/Marquez 2001";n/a;Garcia Sanjuan 2009, 19;n/a
 445;Spain;Andalusia;36,69916667;-4,849722222;South;S95;Tesorillo de la Llana;Megalithic grave;GrA-37339;4055;35;n/a;n/a;n/a;n/a;n/a;Human bone;Antechamber;Garcia Sanjuan et al 2011;n/a;n/a;n/a
@@ -445,7 +445,7 @@ FID;Country;County;Latitude;Longitude;Region;SiteID;Site;Architecture;LabNumber;
 382;Portugal;Beira Interior;39,763397;-8,367676;West;S88;Rego da Murta 2;Passage grave;Beta-190008;4060;50;-19.80;n/a;n/a;n/a;n/a;Human bone;Chamber;Figueiredo 2006;n/a;Figueiredo 2006;n/a
 383;Portugal;Beira Interior;39,763397;-8,367676;West;S88;Rego da Murta 2;Passage grave;Beta-190007;4190;40;-19.80;n/a;n/a;n/a;n/a;Human bone;Chamber;Figueiredo 2006;n/a;Figueiredo 2006;n/a
 384;Portugal;Beira Interior;39,763397;-8,367676;West;S88;Rego da Murta 2;Passage grave;Beta-190004;4290;40;n/a;n/a;n/a;n/a;n/a;Human bone;Chamber;Figueiredo 2006;n/a;Figueiredo 2006;n/a
-390;Portugal;Alentejo;38,4495;-7,4846;West;S90;Santa Margarida 3;Passage grave;Beta-166420;3720;50;-20.5;n/a;n/a;n/a;n/a;Human bone;Chamber;Gonçalvez 2003;n/a;Gonçalvez 2003;n/a
+390;Portugal;Alentejo;38,4351422;-7,44191726;West;S90;Santa Margarida 3;Passage grave;Beta-166420;3720;50;-20.5;n/a;n/a;n/a;n/a;Human bone;Chamber;Gonçalvez 2003;n/a;Gonçalvez 2003;n/a
 391;Portugal;Alentejo;38,4351422;-7,44191726;West;S90;Santa Margarida 3;Passage grave;Beta-166421;3730;40;-20,6;n/a;n/a;n/a;n/a;Human bone;Chamber;Gonçalvez 2003;n/a;Gonçalvez 2003;n/a
 392;Portugal;Alentejo;38,4351422;-7,44191726;West;S90;Santa Margarida 3;Passage grave;Beta-166417;3770;40;-19.2;n/a;n/a;n/a;n/a;Human bone;Chamber;Gonçalvez 2003;n/a;Gonçalvez 2003;n/a
 393;Portugal;Alentejo;38,4351422;-7,44191726;West;S90;Santa Margarida 3;Passage grave;Beta-166418;3780;40;-19.0;n/a;n/a;n/a;n/a;Human bone;Chamber;Gonçalvez 2003;n/a;Gonçalvez 2003;n/a
